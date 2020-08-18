@@ -1,9 +1,22 @@
 import React from "react"
+import Header from "../components/header"
+import Footer from "../components/footer"
+import About from "../components/about"
+import Generalknowledge from "../components/generalknowledge"
 
-const SecondPage = () => (
+const Secoundpage = () => {
+
+  return (
+    <div>
+      <Header/>
+      <About/>
+      <Generalknowledge/>
+      <Footer/>
+    </div>)
+}
+
   
-    <h1>Welcome to page 2</h1>
     
-)
 
-export default SecondPage
+
+export default Secoundpage

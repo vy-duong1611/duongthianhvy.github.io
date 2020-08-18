@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "font-awesome": "^4.7.0",
     "gatsby": "^2.24.41",
     "gatsby-cli": "^2.12.85",

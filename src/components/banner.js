@@ -1,6 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import {InstagramOutlined,GoogleOutlined, YoutubeOutlined,FacebookOutlined} from '@ant-design/icons'
+
 
 const Banner = () => {
     const data = useStaticQuery(graphql`
@@ -40,7 +42,10 @@ const Banner = () => {
                     <button className="contact-me">Contact me</button>
 
                     <div className="icon">
-                  
+                    <FacebookOutlined   style={{padding:'0 5px'}}/>
+                    <InstagramOutlined  style={{padding:'0 5px' }}/>
+                    <GoogleOutlined  style={{padding:'0 5px' }} />
+                    <YoutubeOutlined  style={{padding:'0 5px' }}/>
                     </div>
                   
                     <div className="main-image">

@@ -126,6 +126,16 @@ header{
     .contact-me:hover{
       opacity: 1;
     }
+    .icon{
+      position: absolute;
+      margin: 230px 150px;
+      font-size: 25px;
+      color: $purple;
+      opacity: 0.7;
+    }
+    .icon:hover{
+      opacity: 1;
+    }
     .main-image{
       width: 450px !important;
       position: absolute;
@@ -351,9 +361,119 @@ header{
         position: relative;
        top: 50px;
       }
+      .icon{
+        text-align: center;
+        font-size: 20px;
+        color: $white;
+      }
       p{
         text-align: center;
         color: $white;
         
       }
     }
+
+    //about
+.about{
+  padding: 140px 0px;
+  min-height: 500px;
+  background: $white;
+  position: relative;
+  .title{
+    text-align: center;
+    color: $black;
+    .purple-box{
+      height: 7px;
+      width: 150px;
+      background: $purple;
+      position: absolute;
+      left: 590px;
+      top: 196px;
+      text-align: center;
+    }
+    }
+    .content{
+      width: 33%;
+      position: absolute;
+      padding: 0 150px;
+      @media(max-width:1440px){
+        width: 100%;
+      }
+      p{
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 300;
+        margin: 40px 0 72px;
+      }
+    }
+}
+
+ //general knowledge
+ .general{
+  padding: 50px 0px;
+  min-height: 600px;
+  background: $white;
+  position: relative;
+  .title{
+    text-align: center;
+    color: $black;
+    .purple-box{
+      height: 7px;
+      width: 150px;
+      background: $purple;
+      position: absolute;
+      left: 600px;
+      top: 110px;
+      text-align: center;
+    }
+    }
+    .content{
+      width: 33%;
+      position: absolute;
+      padding: 0 150px;
+      @media(max-width:1440px){
+        width: 100%;
+      }
+      .box-left{
+        height: 290px;
+        width: 322px;
+        right: 300px;
+        top: 45px;
+        border: 2px solid #8560a8;
+        position: absolute;
+        background: $off-white;
+        }
+       .title-left{
+        text-align: center;
+        color: $black;
+        margin: 20px 0;
+       }
+        p{
+          font-size: 1rem;
+          line-height: 2rem;
+          font-weight: 300;
+          margin: 0 50px;
+        }
+      .box-right{
+        height: 290px;
+        width: 320px;
+        left: 300px;
+        top: 45px;
+        border: 2px solid #8560a8;
+        position: absolute;
+        background: $off-white;
+        }
+        .title-right{
+          text-align: center;
+          color: $black;
+          margin: 20px 0;
+         }
+         p{
+          font-size: 1rem;
+          line-height: 2rem;
+          font-weight: 300;
+          margin: 0 50px;
+        }
+      
+    }
+}
