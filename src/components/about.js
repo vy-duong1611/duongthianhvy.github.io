@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <br />
         <div className="content">
-          <p><UserOutlined />  DUONG THI ANH VY<br/>
+          <p>  DUONG THI ANH VY<br/>
           Birthday: 06/01/1996<br/>
           Gender: Female<br/>
           Phone number: 0963618931<br/>
