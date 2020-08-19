@@ -1,0 +1,44 @@
+@import "../../styles/styles.scss";
+
+.education{
+    padding: 48px 0px;
+    min-height: 400px;
+    background: $white;
+    //position: relative;
+    .title{
+      text-align: center;
+      color: $black;
+      .purple-box{
+        height: 7px;
+        width: 90px;
+        background: $purple;
+        //position: absolute;
+        left: 626px;
+        top: 110px;
+        margin: 0 auto;
+      }
+      }
+      .content{
+        width: 33%;
+        //position: absolute;
+        padding: 0 150px;
+        @media(max-width:1440px){
+          width: 100%;
+        }
+        // h6{
+        //   font-weight: 700;
+        //   font-size: 20px;
+        //   letter-spacing: 1.5px;
+        //   margin: 0;
+        // }
+        h5{
+          text-transform: uppercase;
+        }
+        p{
+          font-size: 1rem;
+          line-height: 2rem;
+          font-weight: 300;
+          margin: 40px 0 72px;
+        }
+      }
+  }

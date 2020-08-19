@@ -1,0 +1,76 @@
+@import "../../styles/styles.scss";
+
+.skills{
+    padding: 48px 0px;
+    background: $white;
+    //position: relative;
+    min-height: 1100px;
+    .title{
+      text-align: center;
+      color: $black;
+      .purple-box{
+        height: 7px;
+        width: 50px;
+        background: $purple;
+        //position: absolute;
+        left: 650px;
+        top: 110px;
+        margin: 0 auto;
+      }
+      }
+      
+      .images-left{
+        height: 380px;
+        width: 600px;
+        left: 200px;
+        top:160px;
+        position: absolute;
+        .box-right{
+        height: 230px;
+        width: 500px;
+        left: 355px;
+        top: 45px;
+        border-radius: 20px;
+        border: 2px solid #8560a8;
+        position: absolute;
+        background: $off-white;
+        }
+        h5{
+        top: 25px;
+        left: 20px;
+        position: absolute;
+        }
+        p{
+        top:55px;
+        left: 20px;
+        position: absolute;
+        }
+      }
+      .images-right{
+        height: 380px;
+        width: 600px;
+        right: 200px;
+        top:600px;
+        position: absolute;
+      }
+      .box-left{
+        height: 230px;
+        width: 500px;
+        right: 355px;
+        top: 45px;
+        border-radius: 20px;
+        border: 2px solid #8560a8;
+        position: absolute;
+        background: $off-white;
+        }
+        h5{
+          top: 25px;
+          left: 20px;
+          position: absolute;
+          }
+          p{
+          top:55px;
+          left: 20px;
+          position: absolute;
+          }
+    }

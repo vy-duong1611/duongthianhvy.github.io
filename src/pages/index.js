@@ -1,24 +1,22 @@
 import React from "react";
 import "../styles/styles.scss"
-import Header from "../components/header";
-import Banner from "../components/banner";
-import Education from "../components/education";
-import Expierence from "../components/expierence";
-import Skills from "../components/skills";
-import Footer from "../components/footer";
+import Header from "../components/header/header";
+import Banner from "../components/banner/banner";
+import Education from "../components/education/education";
+import Expierence from "../components/expierence/expierence";
+import Skills from "../components/skills/skills";
+import Footer from "../components/footer/footer";
 
 const IndexPage = () => (
 
-  <div>
-    <Header />
+  <div className="container">
+    {/* <Header /> */}
     <Banner />
-    <Education />
-    <Expierence />
-    <Skills />
-    <Footer/>
+    {/* <Education /> */}
+    {/* <Expierence /> */}
+    {/* <Skills /> */}
+    {/* <Footer/> */}
   </div>
-
-
 )
 
 export default IndexPage

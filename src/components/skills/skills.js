@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
+import "./skills.scss"
 
 const Skills = () => {
   const data = useStaticQuery(graphql`

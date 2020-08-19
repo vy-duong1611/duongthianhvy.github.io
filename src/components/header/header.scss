@@ -1,0 +1,106 @@
+@import "../../styles/styles.scss";
+
+header{
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    .inner-header{
+      width: 80%;
+      border-bottom: 1px solid $purple;
+      margin:0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+      .logo{
+        a{
+          font-weight: 700;
+          text-decoration: none;
+          letter-spacing: 0.1rem;
+          color: $black;
+        }
+      }
+      .navigation{
+          a{
+            margin: 0 1.2rem;
+            text-decoration: none;
+            letter-spacing: 0.1rem;
+            text-transform: uppercase;
+            font-size: 0.8rem!important;
+            color: $black;
+            &:last-child{
+              margin-right: 0px;
+            }
+        }
+      }
+    }
+  }
+@media screen and (max-width:996px){
+    header{
+      .inner-header{
+        .logo{
+          a{
+            font-weight: 400;
+            letter-spacing: 0.45px;
+          }
+        }
+        .navigation{
+            a{
+              margin: 0 15px;
+              letter-spacing: .075px;
+              font-size: 0.7rem!important;
+              &:last-child{
+                margin-right: 0px;
+              }
+            }
+        }
+      }
+    }
+}
+@media screen and (max-width:768px){
+    header{
+      .inner-header{
+        width: 100%;
+        .logo{
+          a{
+            font-weight: 700;
+            letter-spacing: 0.045rem;
+          }
+        }
+        .navigation{
+            a{
+              margin: 0 5px;
+              letter-spacing: .045px;
+              font-size: 0.6rem!important;
+              &:last-child{
+                margin-right: 0px;
+              }
+          }
+        }
+      }
+    }
+}
+@media screen and (max-width:512px){
+    header{
+      .inner-header{
+        width: 100%;
+        .logo{
+          a{
+            font-weight: 400;
+            letter-spacing: 0.045rem;
+          }
+        }
+        .navigation{
+            a{
+              margin: 0 5px;
+              letter-spacing: .045px;
+              font-size: 0.5rem!important;
+              &:last-child{
+                margin-right: 0px;
+              }
+            }
+        }
+      }
+    }
+}

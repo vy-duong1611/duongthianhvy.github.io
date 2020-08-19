@@ -1,22 +1,18 @@
 import React from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
-import About from "../components/about"
-import Generalknowledge from "../components/generalknowledge"
+import Header from "../components/header/header"
+import Footer from "../components/footer/footer"
+import About from "../components/about/about"
+import Generalknowledge from "../components/generalknowledge/generalknowledge"
 
 const Secoundpage = () => {
 
   return (
-    <div>
-      <Header/>
-      <About/>
-      <Generalknowledge/>
-      <Footer/>
+    <div className="container">
+      {/* <Header /> */}
+      <About />
+      {/* <Generalknowledge /> */}
+      {/* <Footer /> */}
     </div>)
 }
-
-  
-    
-
 
 export default Secoundpage
