@@ -2,10 +2,12 @@
 
 .footer{
     background: $black;
-    min-height: 100px;
     width: 100%;
+    min-height: 100px;
+    //margin: 800px 0;
+    
     .container{
-    position: relative;
+      position: relative;
      top: 30px;
     }
     .icon{
@@ -19,6 +21,61 @@
     p{
       text-align: center;
       color: $white;
-      
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width:996px){
+    .footer{
+      width: 100%;
+      .container{
+        position: relative;
+       top: 30px;
+      }
+      .icon{
+        font-size: 20px;
+      }
+      .icon-padding{
+        padding: 0 5px;
+      }
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+  @media screen and (max-width:768px){
+    .footer{
+      width: 100%;
+      .container{
+        position: relative;
+       top: 20px;
+      }
+      .icon{
+        font-size: 15px;
+      }
+      .icon-padding{
+        padding: 0 5px;
+      }
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+  @media screen and (max-width:512px){
+    .footer{
+      margin: 550px 0;
+      width: 100%;
+      .container{
+        position: relative;
+       top: 15px;
+      }
+      .icon{
+        font-size: 15px;
+      }
+      .icon-padding{
+        padding: 0 5px;
+      }
+      p{
+        font-size: 15px;
+      }
     }
   }

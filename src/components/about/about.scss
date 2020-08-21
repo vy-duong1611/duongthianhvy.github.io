@@ -2,7 +2,7 @@
 
 .about{
     padding: 140px 0px;
-    min-height: 500px;
+    min-height: 600px;
     background: $white;
     position: relative;
     .title{
@@ -12,19 +12,15 @@
         height: 7px;
         width: 150px;
         background: $purple;
-        //position: absolute;
         left: 590px;
         top: 196px;
         margin: 0 auto;
       }
       }
       .content{
-        width: 33%;
+        width: 100%;
         position: absolute;
         padding: 0 200px;
-        @media(max-width:1440px){
-          width: 100%;
-        }
         .icon{
           position: absolute;
           font-size: 30px;
@@ -38,7 +34,101 @@
           line-height: 2rem;
           font-weight: 300;
           margin: 0px 60px;
-          line-height: 52px;
+          line-height: 50px;
         }
       }
+  }
+  @media screen and (max-width:996px){
+    .about{
+      padding: 140px 0px;
+      min-height: 500px;
+      .title{
+        .purple-box{
+          height: 7px;
+          width: 70px;
+          margin: 0 auto;
+        }
+        }
+        .content{
+          width: 100%;
+          .icon{
+            font-size: 30px;
+          }
+          .icon-padding{
+            padding: 10px 0;
+          }
+          p{
+            font-size: 1rem;
+            line-height: 2rem;
+            font-weight: 300;
+            margin: 0px 60px;
+            line-height: 52px;
+          }
+        }
+    }
+  }
+  @media screen and (max-width:768px){
+    .about{
+      padding: 140px 0px;
+      min-height: 500px;
+      .title{
+        h1{
+          font-size: 2rem;
+        }
+        .purple-box{
+          height: 7px;
+          width: 70px;
+          // left: 626px;
+          // top: 110px;
+          margin: 0 auto;
+        }
+        }
+        .content{
+          width: 100%;
+          .icon{
+            font-size: 30px;
+          }
+          .icon-padding{
+            padding: 10px 0;
+          }
+          p{
+            font-size: 1rem;
+            line-height: 2rem;
+            font-weight: 300;
+            margin: 0px 60px;
+            line-height: 52px;
+          }
+        }
+    }
+  }
+  @media screen and (max-width:512px){
+    .about{
+      padding: 140px 0px;
+      min-height: 500px;
+      .title{
+        h1{
+          font-size: 1.75rem;
+        }
+        .purple-box{
+          height: 7px;
+          width: 70px;
+          margin: 0 auto;
+        }
+        }
+        .content{
+          width: 100%;
+          .icon{
+            font-size: 20px;
+          }
+          .icon-padding{
+            padding: 7px 0;
+          }
+          p{
+            font-size: 0.5rem;
+            line-height: 1rem;
+            font-weight: 300;
+            margin: 0 30px;
+          }
+        }
+    }
   }

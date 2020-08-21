@@ -8,10 +8,10 @@ const Secoundpage = () => {
 
   return (
     <div className="container">
-      {/* <Header /> */}
+      <Header />
       <About />
-      {/* <Generalknowledge /> */}
-      {/* <Footer /> */}
+      <Generalknowledge />
+      <Footer />
     </div>)
 }
 

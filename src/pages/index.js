@@ -10,12 +10,12 @@ import Footer from "../components/footer/footer";
 const IndexPage = () => (
 
   <div className="container">
-    {/* <Header /> */}
+    <Header />
     <Banner />
-    {/* <Education /> */}
-    {/* <Expierence /> */}
-    {/* <Skills /> */}
-    {/* <Footer/> */}
+    <Education />
+    <Expierence />
+    <Skills />
+    <Footer/>
   </div>
 )
 

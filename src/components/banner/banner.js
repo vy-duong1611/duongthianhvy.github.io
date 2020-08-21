@@ -18,9 +18,10 @@ const Banner = () => {
     }
   `)
     return (
-        <div className="banner">
-            <div className="container">
+        <section className="banner">
+            {/* <div className="container"> */}
                 <div className="row">
+                  <div className="row1">
                   <div className="purple-box"></div>
                   <div className="main-text">I'm Anh Vy</div>
 
@@ -34,16 +35,16 @@ const Banner = () => {
                     <GoogleOutlined  className="icon-padding"/>
                     <YoutubeOutlined  className="icon-padding"/>
                     </div>
-                   
+                    </div>
                     
                     <div className="main-image">
                         <Img fluid={data.duongVy.childImageSharp.fluid} />
                     </div>
                     </div>
-                </div>
+                {/* </div> */}
            
-            <div className="fixed-misc">Visual Artist and Photographer</div>
-        </div>
+            {/* <div className="fixed-misc">Visual Artist and Photographer</div> */}
+        </section>
     )
 }
 
